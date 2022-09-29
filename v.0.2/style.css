@@ -1,0 +1,29 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Balise */
+body {
+    background-color: blue;
+}
+
+nav {
+    background: green;
+}
+
+/* Class */
+.banner {
+    background-image: url("../images/63df7d32233edbe3d9fb5b7bd2438230.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    padding: 100px 0;
+}
+
+.logo {
+    height: 5em;
+    width: 5em;
+}
+
