@@ -49,9 +49,9 @@ h2 {
 .menu .submenu {
     display: none;
 }
-/* .menu .submenu {
+.menu .submenu {
     position: absolute;
-} */
+}
 .menu .submenu li {
     margin-top: .5em;
 }
