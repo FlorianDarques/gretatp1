@@ -14,12 +14,17 @@ header {
     background: rgb(9,9,121);
     background: linear-gradient(180deg, rgba(141,255,255,1) 0%, rgba(210,69,23,1) 100%);
 }
-h1 {
+h1, h2{
     font-family: quantum;
     font-size: 2.5em;
 }
 p {
     font-size: 1.6em;
+    margin-top: 1em;
+}
+span {
+    font-family: quantum;
+    font-size: 1.8em;
 }
 nav {
     flex-direction: column;
@@ -86,6 +91,7 @@ footer a {
 .submenu {
     width: 100%;
     margin-top: 1em;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .menu .submenu {
     position: absolute;
@@ -118,4 +124,6 @@ footer a {
     justify-content: center;
     width: 100%;
 }
-
+.p90 {
+    width: 90%;
+}
